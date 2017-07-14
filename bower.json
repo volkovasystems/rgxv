@@ -1,0 +1,30 @@
+{
+  "name": "rgxv",
+  "version": "0.0.0",
+  "description": "Validate regex pattern on string.",
+  "main": "rgxv.deploy.js",
+  "support": "rgxv.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "validate",
+    "regex",
+    "pattern",
+    "string",
+    "rgxv"
+  ],
+  "homepage": "https://github.com/volkovasystems/rgxv",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "falzy": "^0.20.0",
+    "stringe": "^0.4.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "rgxv",
+  "version": "0.0.0",
+  "description": "Validate regex pattern on string.",
+  "main": "rgxv.js",
+  "support": "rgxv.support.js",
+  "deploy": "rgxv.deploy.js",
+  "browser": "rgxv.deploy.js",
+  "scripts": {
+    "build": "babel rgxv.js --out-file rgxv.support.js --source-maps && webpack --progress --display-modules",
+    "test": "mocha rgxv-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/rgxv.git"
+  },
+  "keywords": [
+    "validate",
+    "regex",
+    "pattern",
+    "string",
+    "rgxv"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/rgxv/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/rgxv#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "falzy": "^0.20.0",
+    "stringe": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^3.2.0"
+  }
+}
